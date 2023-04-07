@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="nav.css">
+	<!--<style>
+		table {
+			border-collapse: collapse;
+			margin: auto; /* center the table */
+			padding: 50px; /* add big padding */
+			border-radius: 50%;
+		}
+		th {
+			background-color: #ccc;
+			padding: 20px;
+			text-align: left;
+		}
+		td {
+			padding: 10px;
+			border: 1px solid #ddd;
+		}
+		body{
+			background-color: #f0ffff;
+		}
+	</style>-->
+</head>
+<body>
+
+	<nav class="topnav">
+        <ul style="list-style-type: none;">
+            <li class="list"><a href="D:\yassu\mini\front\home.html">Home</a></li>
+            <li class="list"><a href="readings.html">Readings</a></li>
+            <li class="list"><a href="graphs.html">Graphs</a></li>
+        </ul>
+    </nav>
+	<br>
+	<br>
+    <h1 align="center">these are the values taken from the sensor</h1>
+	<br>
+	<br>
+	<table border="5" align="center">
+		<tr>
+			<th>TEMPERATURE</th>
+			<th>HUMIDITY</th>
+			<th>GAS LEVEL</th>
+		</tr>
+		<tr>
+			<td><iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2096307/widgets/627389"></iframe></td>
+			<td><iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2096307/widgets/627391"></iframe></td>
+			<td><iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2096307/widgets/627392"></iframe></td>
+		</tr>
+	</table>
+</body>
+</html>

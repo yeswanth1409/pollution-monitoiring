@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="nav.css">
+</head>
+<body>
+
+    <nav class="topnav">
+        <ul style="list-style-type: none;">
+            <li class="list"><a href="D:\yassu\mini\front\home.html">Home</a></li>
+            <li class="list"><a href="readings.html">Readings</a></li>
+            <li class="list"><a href="graphs.html">Graphs</a></li>
+        </ul>
+    </nav>
+    
+    <h1 align="center">these are the values taken from the sensor range of one hour</h1>
+    <table border="5" align="center">
+		<tr>
+			<th>HUMIDITY</th>
+			<th>TEMPERATURE</th>
+			<th>GAS LEVEL</th>
+		</tr>
+		<tr>
+			<td><iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2096307/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&title=Temperature&type=line"></iframe>
+			<td><iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2096307/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&title=Humidity&type=line"></iframe></td>
+			<td><iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2096307/charts/3?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe></td>
+		</tr>
+	</table>
+</body>
+</html>
